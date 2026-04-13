@@ -1,6 +1,6 @@
-# 🧠 Logistic Regression from Scratch & CIFAR-10 Classification
+# Logistic Regression from Scratch & CIFAR-10 Classification
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains the mathematical implementation of classic Machine Learning algorithms and their application to a real-world computer vision problem. The project was originally developed as part of an academic assignment on Statistical Learning in collaboration with peers.
 
 **My main contributions (and the focus of this repository) include:**
