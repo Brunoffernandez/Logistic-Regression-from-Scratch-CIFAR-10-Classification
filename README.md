@@ -11,7 +11,7 @@ This repository contains the mathematical implementation of classic Machine Lear
 ## Technologies Used
 * **Language:** Python 3
 * **Key Libraries:** NumPy (linear algebra), Scikit-Learn (modeling and validation), Matplotlib (data visualization)
-* **Dataset:** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (Image Classification)
+* **Dataset:** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (Image Classification) and MNIST (Handwritten digits)
 
 ## Key Findings
 * **Mathematical Convergence:** The manual implementation of the Newton-Raphson method achieves fast convergence thanks to second-order information (Hessian). However, it requires a Ridge penalty to avoid non-invertible (singular) matrices in certain data spaces.
@@ -19,5 +19,6 @@ This repository contains the mathematical implementation of classic Machine Lear
 
 ## Repository Structure
 * `Technical_Report.pdf`: The full project report providing detailed mathematical explanations, methodology, and in-depth analysis of the results.
-* `q1_optimizers.py`: Python script containing the from-scratch implementation of the mathematical optimization functions (Question 1).
-* `q2_cifar10_classification.ipynb`: Jupyter Notebook detailing the image preprocessing, model fitting, and evaluation on the CIFAR-10 dataset (Question 2).
+* `logistic_regression_simulation.py`: Python script containing the from-scratch implementation of the Newton-Raphson optimization and a simulation study on synthetic data.
+* `logistic_regression_mnist.py`: Application of the custom penalized logistic regression model on the MNIST dataset.
+* `cifar10_classification.ipynb`: Jupyter Notebook detailing the image preprocessing, model fitting, and evaluation on the CIFAR-10 dataset.
