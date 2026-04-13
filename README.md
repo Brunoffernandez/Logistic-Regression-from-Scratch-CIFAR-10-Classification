@@ -18,6 +18,6 @@ This repository contains the mathematical implementation of classic Machine Lear
 * **Accuracy vs. Log-Loss:** During the search for regularization hyperparameters ($C$), it was found that optimizing for *Log-Loss* results in more robust models. This metric not only penalizes incorrect predictions but also the model's false confidence in its predictions.
 
 ## Repository Structure
-* `docs/Technical_Report.pdf`: The full project report providing detailed mathematical explanations, methodology, and in-depth analysis of the results.
-* `src/q1_optimizers.py`: Python script containing the from-scratch implementation of the mathematical optimization functions (Question 1).
-* `notebooks/q2_cifar10_classification.ipynb`: Jupyter Notebook detailing the image preprocessing, model fitting, and evaluation on the CIFAR-10 dataset (Question 2).
+* `Technical_Report.pdf`: The full project report providing detailed mathematical explanations, methodology, and in-depth analysis of the results.
+* `q1_optimizers.py`: Python script containing the from-scratch implementation of the mathematical optimization functions (Question 1).
+* `q2_cifar10_classification.ipynb`: Jupyter Notebook detailing the image preprocessing, model fitting, and evaluation on the CIFAR-10 dataset (Question 2).
